@@ -1,6 +1,6 @@
-docker build -t xinboxia/multi-client:latest -t xinbxia/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t xinboxia/multi-server:latest -t xinbxia/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t xinboxia/multi-worker:latest -t xinbxia/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t xinboxia/multi-client:latest -t xinboxia/multi-client:$SHA -f ./client/Dockerfile ./client
+docker build -t xinboxia/multi-server:latest -t xinboxia/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t xinboxia/multi-worker:latest -t xinboxia/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push xinboxia/multi-client:latest
 docker push xinboxia/multi-server:latest
